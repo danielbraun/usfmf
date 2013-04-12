@@ -98,7 +98,7 @@ d3.json("data.json", function(error, data) {
         .style("stroke-width", 1)
         .style("z-index", -999);
 
-    // draw_countries(countries, 61);
+    draw_countries(countries, 61);
 
     d3.select("input[type=range]")
         .on(("change"), function() {
